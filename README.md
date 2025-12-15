@@ -5,7 +5,7 @@
 A simple, robust REST API built with Flask that serves "hard truths" and quotes about discipline. This project demonstrates a production-ready CI/CD pipeline using Docker and Render.
 
 ## 🚀 Live Demo
-**Base URL:** `https://your-app-name.onrender.com`  
+**Base URL:** `https://discipline-api.onrender.com`  
 *(Replace with your actual Render URL)*
 
 ## 🛠️ Tech Stack
@@ -67,3 +67,4 @@ docker build -t discipline-api .
 
 # Run the container (Maps port 5000 to 5000)
 docker run -p 5000:5000 discipline-api
+
