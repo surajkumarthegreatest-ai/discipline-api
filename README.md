@@ -6,7 +6,6 @@ A simple, robust REST API built with Flask that serves "hard truths" and quotes 
 
 ## 🚀 Live Demo
 **Base URL:** `https://discipline-api.onrender.com`  
-*(Replace with your actual Render URL)*
 
 ## 🛠️ Tech Stack
 * **Framework:** Flask (Python)
@@ -67,4 +66,5 @@ docker build -t discipline-api .
 
 # Run the container (Maps port 5000 to 5000)
 docker run -p 5000:5000 discipline-api
+
 
