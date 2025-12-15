@@ -5,7 +5,8 @@
 A simple, robust REST API built with Flask that serves "hard truths" and quotes about discipline. This project demonstrates a production-ready CI/CD pipeline using Docker and Render.
 
 ## 🚀 Live Demo
-**Base URL:** `https://discipline-api.onrender.com`  
+**Base URL:** `https://discipline-api.onrender.com`
+*(Note: Replace with your actual Render URL if different)*
 
 ## 🛠️ Tech Stack
 * **Framework:** Flask (Python)
@@ -37,7 +38,7 @@ Returns a random discipline quote in JSON format.
     }
     ```
 
-## 💻 Local Setup
+## 💻 Local Setup (For Users)
 
 1.  **Clone the repository**
     ```bash
@@ -56,15 +57,35 @@ Returns a random discipline quote in JSON format.
     ```
     Access at: `http://127.0.0.1:5000`
 
-## 🐳 Docker Support
+## 👨‍💻 Developer Workflow (For Maintainers)
 
-Build and run the container locally to simulate production.
+### How to Update & Deploy
+If you change the code, follow these steps to push changes to GitHub and trigger a new Render deployment.
 
+1.  **Check Status**
+    ```bash
+    git status
+    ```
+
+2.  **Stage Changes**
+    ```bash
+    git add .
+    ```
+
+3.  **Commit Changes**
+    ```bash
+    git commit -m "Describe your change here"
+    ```
+
+4.  **Push to GitHub**
+    ```bash
+    git push
+    ```
+    *Render will automatically detect the push and redeploy.*
+
+### Initial Setup (Reference)
+These were the commands used to initialize the repo:
 ```bash
-# Build the image
-docker build -t discipline-api .
-
-# Run the container (Maps port 5000 to 5000)
-docker run -p 5000:5000 discipline-api
-
-
+git init
+git branch -M main
+git remote add origin [https://github.com/surajkumarthegreatest-ai/discipline-api.git](https://github.com/surajkumarthegreatest-ai/discipline-api.git)
