@@ -6,7 +6,6 @@ A simple, robust REST API built with Flask that serves "hard truths" and quotes 
 
 ## 🚀 Live Demo
 **Base URL:** `https://discipline-api.onrender.com`
-*(Note: Replace with your actual Render URL if different)*
 
 ## 🛠️ Tech Stack
 * **Framework:** Flask (Python)
@@ -89,3 +88,4 @@ These were the commands used to initialize the repo:
 git init
 git branch -M main
 git remote add origin [https://github.com/surajkumarthegreatest-ai/discipline-api.git](https://github.com/surajkumarthegreatest-ai/discipline-api.git)
+
